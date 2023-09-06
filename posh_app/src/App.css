@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: monospace;
+    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Roboto Flex', sans-serif; */
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* img {
+    width: 25px;
+} */
+
+/* Header CSS */
+.form-control {
+    width: 50%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: none;
+}
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.button {
+    background-color: #232f3e;
+    padding: 10px 20px;
+    border-radius: 3rem ;
+    color: antiquewhite;
+    font-size: 14px;
+}
+.button:hover {
+    background-color: #db570a;
+    color: #0a0a0a;
+}
+
+.image {
+    width: 70%;
+    height: 50%;
+}
+
+.header-top {
+    background-color: rgb(22, 21, 21);
+    color: rgba(245, 245, 245, 0.829);
+    border-bottom: 1px solid darkgrey;
+}
+
+.middle-header {
+    padding-top: 10px;
+    background-color: #131921;
+}
+
+.middle-header .input-group-text {
+    background-color: #FEBD69;
+}
+
+.bottom-header {
+    background-color: #232f3e;
+}
+.bottom-header .menu-links a, 
+.bottom-header .dropdown button{
+    color: white;
+    font-size: 14px;
+    line-height: 1px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.bottom-header .dropdown button:focus {
+    box-shadow: none;
+}
+.bottom-header .dropdown-menu {
+    background-color: #6f706f;
+    width: 100%;
+    transform: translate3d(0px, 57px, 0px)
+}
+.bottom-header .dropdown-item {
+    padding: 10px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #504f4f;
+
+}
+
+.bottom-header .dropdown-item:hover {
+    background-color: #7e7e7e;
+    color: #febd69;
+}
+
+/* Header CSS Ends */
+
+/* Footer CSS */
+footer {
+    background-color: #232f3e;
+    float: sticky;
+    padding: 10px;
+}
+footer:not(first) {
+    border-top: 1px solid grey;
+}
+
+footer .input-group-text {
+    color: grey;
+    background-color: #232f3e;
+}
+
+
+/* Footer CSS Ends */
+
+/* Home class */
+.main-banner-content {
+    top: 15%;
+    left: 5%;
+}
+.main-banner-content h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #bf4500;
+    margin: 0 0 12px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.main-banner-content h5 {
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    padding: 0;
+
+}
+.main-banner-content p {
+    font-size: 16px;
+}
+.small-banner-content {
+    top: 15%;
+    left: 10%;
+}
+.small-banner-content h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #bf4500;
+    margin: 0 0 12px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.small-banner-content h5 {
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    padding: 0;
+
+}
+.small-banner-content p {
+    font-size: 16px;
+}
+.small-banner {
+    width: 49%;
+}
+
+/* Home-wrapper-2 */
+.home-wrapper-2 {
+    background-color: #f5f5f7;
+}
+
+/* Home-wrapper-3 Categories */
+.categories, .card-wrapper {
+    background-color: white;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 5px;
+}
+.categories > div {
+    width: 24%;
+}
+
+.blog-cart {
+    background-color: white;
+    border-radius: 0.5em;
+    box-shadow: 0 0 5px #0000001a;
+}
+
+.blog-cart img {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-cart .date {
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0;font-weight: 400;
+    color: #777777;
+    padding: 0;
+}
+.blog-content h5 {
+    font-size: 15px;
+    color: #131921;
+}
+
+.blog-content p.desc {
+    font-size: 13px;
+    line-height: 22px;
+    color: #777777;
+}
+
+.section-heading {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    margin: 13px;
+}
+
+.product-card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #0000001a;
+}
+.product-card .product-image {
+    height: 270px;
+}
+.product-card .product-image img {
+    object-fit: contain;
+}
+.product-card .product-image > img:last-child {
+    display: none;
+}
+.product-card:hover .product-image > img:nth-child(1) {
+    display: none;
+}
+.product-card:hover .product-image > img:last-child {
+    display: block
+}
+.product-card:hover .action-bar {
+    right: 15px;
+}
+.product-card .product-details h6 {
+    font-size: 13px;
+    color: #bf4500;
+}
+.product-card .product-details h5 {
+    font-size: 18px;
+    color: #1c1c1b;
+}
+.product-card .product-details p.price {
+    font-size: 16px;
+    color: #1c1c1b;
+}
+.action-bar {
+    top: 10%;
+    right: -23px;
+    transition: .3s;
+}
+.wishlist-icon {
+    top: 3%;
+    left: 15px;
+}
+
+.special-product-card {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.special-product-card .special-product-image img {
+    width: 200px;
+}
+.special-product-card .badge {
+    background-color: #eb353b00;
+}
+/* Home css ends */

@@ -1,0 +1,30 @@
+.headerClass {
+    /* overflow: hidden; */
+    display: flex;
+    background-color: whitesmoke;
+    /* position: fixed; */
+}
+.navbar a {
+    float: right;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0, 7%, 16%);
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+
+.headerClass h1 {
+    color: black;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    /* float: left; */
+}
+
+.headerClass a:hover {
+    color: rgb(129, 12, 12);
+
+}
