@@ -5,9 +5,9 @@ import Footer from './Footer'
 
 function Layout() {
     return (
-        <div>
+        <div className='container-xxl'>
             <Header />
-            <Outlet style={{padding: "20px"}}/>
+            <Outlet style={{padding: "20px"}} className='container-xxl'/>
             <Footer />
         </div>
     )

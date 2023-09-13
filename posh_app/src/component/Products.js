@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
-import './Product.css'
 import { ProductContextProvider } from "./ProductContext";
 
 function Products() {

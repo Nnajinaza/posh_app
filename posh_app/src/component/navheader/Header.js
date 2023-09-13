@@ -52,14 +52,14 @@ function Nav() {
             <div className="col-3 ">
               <div className="middle-header-links d-flex align-item-left justify-content-between gap-10 ">
                 <div>
-                  <NavLink className="d-flex align-item-center gap-10 text-white">
+                  <NavLink to="/wishlist" className="d-flex align-item-center gap-10 text-white">
                     <FaRegHeart className="fs-4" />
                     {/* <img src="/images/wishlist.svg"/> */}
                     <p>Wishlist</p>
                   </NavLink>
                 </div>
                 <div>
-                  <NavLink className="d-flex align-item-center gap-10 text-white">
+                  <NavLink to="/cart" className="d-flex align-item-center gap-10 text-white">
                     <BsCartFill fontSize={24} className="fs-3" />
                     <div className="d-flex flex-column">
                       <span className="badge bg-white text-dark">0</span>
@@ -68,7 +68,7 @@ function Nav() {
                   </NavLink>
                 </div>
                 <div>
-                  <NavLink className="d-flex align-item-center gap-10 text-white">
+                  <NavLink to="/login" className="d-flex align-item-center gap-10 text-white">
                     <BsPersonCircle className="fs-3" />
                     <p>Profile</p>
                   </NavLink>
@@ -124,7 +124,7 @@ function Nav() {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/store">Our Store</NavLink>
+                    <NavLink to="/products">Our Store</NavLink>
                     <NavLink to="/blog">Blog</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>
