@@ -5,14 +5,15 @@ import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
+import { Link, NavLink } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Meta from '../component/Meta';
 
 
 const defaultTheme = createTheme()
 
-export default function Login() {
+export default function Register() {
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -28,6 +29,7 @@ export default function Login() {
     return (
       <ThemeProvider theme={defaultTheme}>
         <Container component="main" maxWidth="xs" >
+        <Meta title={"Register"} />
           <CssBaseline />
             <Box
               sx={{display: 'flex',
@@ -92,17 +94,19 @@ export default function Login() {
                             ml: 2, 
                             display: "flex", 
                             alignItems: "center", 
-                            justifyItems: "space-between"}} 
-                            spacing={2}>
+                            justifyItems: "space-between",
+                          gap: 8}} 
+                            spacing={5}
+                            >
                   <Button
                             type="submit"
                             variant="contained"
                             xs={7}
                             sx={{ mt: 3, mb: 2, }}
                   >Sign Up</Button>
-                  <Link to={"/products"} variant="body2" sx={{mr: 1, pl: 10, fontWeight: 300, pb: 1}}>
-                    Already have an account? Sign in
-                  </Link>
+                  <NavLink to="/login" variant="body2" sx={{mr: 7, pl: 10, fontWeight: 300, pb: 1}}>
+                    Already have an account? Log in
+                  </NavLink>
                 </Grid>
               </Grid>
               </Box>

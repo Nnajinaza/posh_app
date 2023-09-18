@@ -12,6 +12,9 @@ import Layout from "./component/navheader/Layout";
 import { ProductContextProvider } from "./component/ProductContext";
 import Blog from "./pages/Blog";
 import ContactUs from "./pages/ContactUs";
+import Wishlist from "./pages/Wishlist";
+import SingleProduct from "./pages/SingleProduct";
+import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
   return (
@@ -24,9 +27,11 @@ function App() {
           {/* <Route path="store" element={<OurStore />} /> */}
           <Route path="blog" element={<Blog />} />
           <Route path="products" element={<OurStore />} />
-          <Route path="/products/:id" element={<Cart />} />
-          <Route path="/login" element={<Register />} />
-          <Route path="/register" element={<Login />} />
+          <Route path="wishlist" element={<Wishlist />} />
+          <Route path="/products:id" element={<SingleProduct/>} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/forgotpassword" element={<ForgotPassword />} />
           <Route path="*" Component={Missing} />
         </Route>
       </Routes>

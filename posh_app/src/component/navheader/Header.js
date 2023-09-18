@@ -29,7 +29,7 @@ function Nav() {
           <div className="row">
             <div className="col-1">
               <h2 className="title align-item-center justify-content-center ">
-                <NavLink className="text-white">POSH</NavLink>
+                <NavLink to="/" className="text-white">POSH</NavLink>
               </h2>
             </div>
             <div className="col-3">
@@ -68,7 +68,7 @@ function Nav() {
                   </NavLink>
                 </div>
                 <div>
-                  <NavLink to="/login" className="d-flex align-item-center gap-10 text-white">
+                  <NavLink to="/register" className="d-flex align-item-center gap-10 text-white">
                     <BsPersonCircle className="fs-3" />
                     <p>Profile</p>
                   </NavLink>

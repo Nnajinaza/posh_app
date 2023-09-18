@@ -6,8 +6,8 @@ import BlogCart from "../component/BlogCart";
 const Blog = () => {
   return (
     <>
-      <Meta title={"Store"} />
-      <BreadCrumb title="Store" />
+      <Meta title={"Blog"} />
+      <BreadCrumb title="Blog" />
       <div className="blog-wrapper home-wrapper py-5">
         <div className="container-xxl">
           <div className="row">

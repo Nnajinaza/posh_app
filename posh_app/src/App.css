@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -35,6 +36,9 @@ body {
 a {
     text-decoration: none;
     display: inline-block;
+}
+a:hover {
+    text-decoration: none;
 }
 
 /* img {
@@ -272,12 +276,15 @@ footer .input-group-text {
 }
 .product-card:hover .product-image > img:nth-child(1) {
     display: none;
+
 }
 .product-card:hover .product-image > img:last-child {
-    display: block
+    display: block;
+
 }
 .product-card:hover .action-bar {
     right: 15px;
+
 }
 .product-card .product-details h6 {
     font-size: 13px;
@@ -286,15 +293,18 @@ footer .input-group-text {
 .product-card .product-details h5 {
     font-size: 18px;
     color: #1c1c1b;
+
 }
 .product-card .product-details p.price {
     font-size: 16px;
     color: #1c1c1b;
+
 }
 .action-bar {
     top: 10%;
     right: -23px;
     transition: .3s;
+
 }
 .wishlist-icon {
     top: 3%;
@@ -463,7 +473,11 @@ footer .input-group-text {
     background-color: #f5f5f7;
     border-radius: 10px;
     border-color: transparent;
+    width: 100%;
 }
+/* .contact-inner-wrapper form .form-control:hover{
+    border-style: none;
+} */
 .contact-inner-wrapper ul {
     list-style: none;
 }
@@ -531,4 +545,20 @@ footer .input-group-text {
 .review-head h4 { 
     font-size: 10px;
     color: #1c1c1b;
+}
+
+.customers-review {
+    margin-top: 25px;
+    padding-top: 10px;
+    border-top: 1px solid #e6e1e1;
+}
+
+.customers-review span {
+    color: #a19f9f;
+    text-decoration: underline;
+    text-decoration-color: #a19f9f;
+}
+.customers-review p {
+    color: #7e7e7e;
+    font-size: small;
 }
