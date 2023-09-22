@@ -1,16 +1,15 @@
 import React from "react";
 import BreadCrumb from "../component/BreadCrumb";
 import Meta from "../component/Meta";
-import { FaAddressCard, FaInbox, FaInfo, FaMailBulk, FaPhone, FaTimesCircle } from "react-icons/fa";
-import { Input } from "@mui/material";
+import { FaAddressCard, FaInbox, FaInfo, FaMailBulk } from "react-icons/fa";
+import Container from "../component/Container";
 
 const ContactUs = () => {
   return (
     <>
       <Meta title={"Contact Us"} />
       <BreadCrumb title="Contact Us" />
-      <div className="contact-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="contact-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="12">
               <iframe></iframe>
@@ -76,8 +75,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
     </>
   );
 };

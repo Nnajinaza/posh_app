@@ -106,10 +106,12 @@ export default function Login() {
                   variant="contained"
                   xs={12}
                   sx={{ width: 195, mb: 2 }}
+                  className="button"
                 >
                   Login
                 </Button>
                 <Button
+                className="button"
                   type="submit"
                   variant="contained"
                   xs={12}
